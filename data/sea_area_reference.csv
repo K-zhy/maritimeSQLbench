@@ -1,0 +1,4 @@
+"mrgid_sea","name_en","name_cn","name_pinyin","name_py","data_shape","center_lat","center_lon","max_lat","max_lon","min_lat","min_lon","parent_mrgid","map_level","is_void","polygon_points"
+"5698","The Northwestern Passages","西北通道","XIBEITONGDAO","XBTD","","71.5","-89.8","81.6","-72.3","63.8","-127.7","1906","3","0","2018 6 5 3 O 1 0 SYNTHETIC_TEXT_4AAEF00C87"
+"4287","Caribbean Sea","加勒比海","JIALEBIHAI","JLBH","","14.3","-73.4","22.7","-59.3","7.9","-88.9","1912","4","0","6 5 3 O 1 0 SYNTHETIC_TEXT_F8E98AE17A"
+"8040","Panama Canal","巴拿马运河","BANAMAYUNHE","BNMYH","","9.1","-79.8","","","","","1908","6","0","6 5 3 O 1 0 SYNTHETIC_TEXT_BF7BD5BC5E"

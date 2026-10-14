@@ -1,0 +1,26 @@
+This repository is a multi-license distribution. No single license applies to all files.
+
+MIT / LICENSE-CODE applies to:
+- benchmark.py
+- model_inference.py
+- run_benchmark.py
+- database/generate_schema.py
+- database/load_data.py
+- tests/
+- compose.yaml
+- requirements.txt
+
+CC BY 4.0 / LICENSE-DATA applies to:
+- evaluation_data_anonymized.json
+- data/
+- schema_anonymized.py
+- database/schema.sql
+- scds_prompts.py
+- README.md
+- README.zh-CN.md
+- CITATION.cff
+
+Generated or local model outputs under results/ and ignored predictions or reports are not distributed with this release and are not covered unless explicitly stated otherwise.
+
+Third-party materials retain their own rights and licenses.
+

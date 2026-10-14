@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: If you use MaritimeSQLBench, please cite this dataset.
+title: MaritimeSQLBench
+type: dataset
+version: 1.0.0
+repository-code: https://github.com/K-zhy/maritimeSQLbench
+authors:
+  - family-names: Zhang
+    given-names: Haoyu
+  - family-names: Zou
+    given-names: Yingqi
+  - family-names: Wang
+    given-names: Xiangyu
+  - family-names: Wang
+    given-names: Shaohan
+  - family-names: Zhang
+    given-names: Zijian

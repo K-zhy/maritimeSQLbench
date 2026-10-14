@@ -1,0 +1,25 @@
+# Confidential source files: do not publish
+evaluation_data_with_difficulty_augmented.json
+schema.py
+*pdf
+
+# Never publish anonymization mappings
+*anonymization_map*
+*entity_mapping*
+
+# Local artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+predictions.json
+evaluation_report.json
+evaluation_report.gold-audit.json
+results/
+
+# Environment and diagnostic artifacts
+.env
+.env.*
+!.env.example
+predictions.json.tmp
+*.log
+*.dump

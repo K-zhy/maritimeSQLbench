@@ -1,0 +1,140 @@
+{
+  "format_version": 1,
+  "version": "1.0.0",
+  "status": "released",
+  "snapshot_as_of": "2026-10-13T14:00:00+08:00",
+  "composition": "deterministically anonymized benchmark records prepared for executable evaluation",
+  "table_count": 16,
+  "tables": [
+    {
+      "table": "maritime.vessel_reference",
+      "file": "vessel_reference.csv",
+      "row_count": 135,
+      "column_count": 38,
+      "sha256": "aadd3361a66d39be141b86ff1d37ab7382636f3ef1b1658fa524335fced475dc"
+    },
+    {
+      "table": "maritime.vessel_state_history",
+      "file": "vessel_state_history.csv",
+      "row_count": 5636,
+      "column_count": 64,
+      "sha256": "1177ba4c82ebebe0307e3b42585e956dbe96838893f4d8649e1a18c2c83d27b6"
+    },
+    {
+      "table": "maritime.vessel_event_log",
+      "file": "vessel_event_log.csv",
+      "row_count": 3637,
+      "column_count": 31,
+      "sha256": "07f4e9d17a33d6dd96bc3a304aa87573150a0d7c1da69338368603818b94fd52"
+    },
+    {
+      "table": "maritime.vessel_current_state",
+      "file": "vessel_current_state.csv",
+      "row_count": 555,
+      "column_count": 37,
+      "sha256": "4e946bfdabd452260f4cb171b76f0f7a52be8e78e711c2ce719589ba69041c90"
+    },
+    {
+      "table": "maritime.index_observation",
+      "file": "index_observation.csv",
+      "row_count": 5677,
+      "column_count": 10,
+      "sha256": "abe43b203b8dd6300108507904b94f15f51ebf18049824ab304404ea58555003"
+    },
+    {
+      "table": "maritime.index_catalog",
+      "file": "index_catalog.csv",
+      "row_count": 19,
+      "column_count": 11,
+      "sha256": "d7178da1010b52eee0b3c148173ceed83ef737e8eb2d0f20dac0f6869c536212"
+    },
+    {
+      "table": "maritime.port_reference",
+      "file": "port_reference.csv",
+      "row_count": 31,
+      "column_count": 19,
+      "sha256": "c9421b981c5136fe71e7a7a53b99eab5e453fedc83939a7445f71111387bc988"
+    },
+    {
+      "table": "maritime.berth_reference",
+      "file": "berth_reference.csv",
+      "row_count": 422,
+      "column_count": 22,
+      "sha256": "700cf9ff0eebfd7a17c3157db7eb1fa793b8bb32f6bb03df83c9f73a3cec1bf2"
+    },
+    {
+      "table": "maritime.port_efficiency_snapshot",
+      "file": "port_efficiency_snapshot.csv",
+      "row_count": 1105,
+      "column_count": 28,
+      "sha256": "490167aedcf4f99852f6c193c45f4d1fb0c47945c8c46ad10b9939c1c878299c"
+    },
+    {
+      "table": "maritime.port_efficiency_baseline",
+      "file": "port_efficiency_baseline.csv",
+      "row_count": 122,
+      "column_count": 16,
+      "sha256": "7005f0b0efd0daf56ca226ee1e67da668a06ab7f2e93f21f8538f788678eea72"
+    },
+    {
+      "table": "maritime.port_guide",
+      "file": "port_guide.csv",
+      "row_count": 33,
+      "column_count": 6,
+      "sha256": "199b93e3753be319190d2d06076ceb0a87751806f0b7d9f52af6550eeaa3eca0"
+    },
+    {
+      "table": "maritime.country_reference",
+      "file": "country_reference.csv",
+      "row_count": 20,
+      "column_count": 14,
+      "sha256": "4a9aa6ef536b4d62fc2631e9182894992d1389bc708ba9e6c0883eeaa7332b1b"
+    },
+    {
+      "table": "maritime.route_node_reference",
+      "file": "route_node_reference.csv",
+      "row_count": 5,
+      "column_count": 19,
+      "sha256": "408d9f156674bda547edc2ef016aeb7fcd19e916e53b1ea8ce7a8dbd854a72f8"
+    },
+    {
+      "table": "maritime.special_region_reference",
+      "file": "special_region_reference.csv",
+      "row_count": 3,
+      "column_count": 28,
+      "sha256": "8b74bb7b14dfdea88b896f85db692bce3bdcd7c93ac8d0b0d5231d2d838d7c1d"
+    },
+    {
+      "table": "maritime.sea_area_reference",
+      "file": "sea_area_reference.csv",
+      "row_count": 3,
+      "column_count": 16,
+      "sha256": "b1940826067cdf7236c2f07cf270fc71656ef41ccd2784e79797c922d1f565de"
+    },
+    {
+      "table": "maritime.regulatory_notice",
+      "file": "regulatory_notice.csv",
+      "row_count": 3,
+      "column_count": 11,
+      "sha256": "dbf91c93039cba61abc04ee832453c025d87e9da956e3f131395b37060e85566"
+    }
+  ],
+  "gold_query_audit": {
+    "example_count": 585,
+    "nonempty_count": 585,
+    "execution_failure_count": 0
+  },
+  "evaluation": {
+    "example_count": 585,
+    "difficulty_counts": {
+      "中等": 316,
+      "复杂": 57,
+      "简单": 212
+    },
+    "referenced_table_count": 16
+  },
+  "sensitive_residual_audit": {
+    "checked_fields": 69,
+    "violation_count": 0
+  }
+}
