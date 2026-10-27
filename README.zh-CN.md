@@ -6,6 +6,10 @@ MaritimeSQLBench 是论文 **《SCDS: Data Synthesis with Structural Priors via 
 
 可执行 benchmark 数据包经过确定性脱敏和一致性校验。
 
+## 训练数据
+
+[下载训练数据](https://github.com/K-zhy/maritimeSQLbench/releases/download/bird-training-data-v1.0/bird_syn_with_cot.jsonl.gz)。
+
 ## 文件说明
 
 | 文件 | 说明 |

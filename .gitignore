@@ -23,3 +23,7 @@ results/
 predictions.json.tmp
 *.log
 *.dump
+
+# Training data is distributed through GitHub Releases
+bird_syn_with_cot*.jsonl
+bird_syn_with_cot*.jsonl.gz

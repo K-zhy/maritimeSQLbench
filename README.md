@@ -6,6 +6,10 @@ MaritimeSQLBench is a domain-specific Text-to-SQL benchmark accompanying the man
 
 The executable benchmark package has undergone deterministic anonymization and consistency validation.
 
+## Training Data
+
+[Download training data](https://github.com/K-zhy/maritimeSQLbench/releases/download/bird-training-data-v1.0/bird_syn_with_cot.jsonl.gz).
+
 ## Files
 
 | File | Description |
